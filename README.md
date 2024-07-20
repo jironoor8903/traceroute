@@ -1,4 +1,3 @@
-# CS168 Traceroute Project Spec
 > The Internet is a large and complex aggregation of network hardware, connected together by gateways. 	Tracking the route one's packets follow (or finding the miscreant gateway that's discarding your packets) can be difficult. **traceroute** utilizes the IP protocol `time to live` field and attempts to elicit an ICMP TIME_EXCEEDED response from each gateway along the path to some host.
 -- [Traceroute Man Page](https://man.freebsd.org/cgi/man.cgi?query=traceroute)
 
